@@ -24,7 +24,9 @@ int main()
                	
 	            printf("\t2 - Consultar Usuário \n\n");                      // Comandos Menu
 	            
-	            printf("\t3 - Deletar Usuário\n\n\n");	                     // Comandos Menu e Final do Menu
+	            printf("\t3 - Deletar Usuário\n\n");	                     // Comandos Menu e Final do Menu
+	            
+	            printf("\t4 - Sair do Sistema\n\n\n");
 
                 printf("Digite sua Opção:");
 		            
@@ -48,6 +50,12 @@ int main()
 		    case 3:
 	   	    Deletar();    // Chamado de Funções
 		    break;
+		    
+		    
+		    case 4:
+		    printf("Obrigado por Utilizar o Sistema !");
+			return 0;                                               // Retona O valor 0 = Quebra laço	e função e sai do sistema
+			break;                                                    
 		   		       
 		    default:
 		    printf("Esta opção não esta disponivel!\n\n");
